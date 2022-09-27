@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void main() {
+
+   
+int op,a,b;
+char c,d;
+float e,f;
+double g,h;
+while(1){
+	printf("enter option   1)intiger   2)char    3)float    4)double 5)exit");
+        scanf("%d",&op);
+        printf("\n enter the numbers\n");
+	switch(op)
+	{
+		case 1: scanf("%d%d",&a,&b);printf("\nsum=%d\nsub=%d\ndiv=%d\nmul=%d\n",a+b,a-b,a/b,a*b);break;
+		case 2: scanf(" %c %c",&c,&d); printf("\nsum=%c\nsub=%c\ndiv=%c\nmul=%c\n",c+d,c-d,c/d,c*d);break;
+		case 3: scanf("%f%f",&e,&f);printf("\nsum=%f\nsub=%f\ndiv=%f\nmul=%f\n",e+f,e-f,e/f,e*f); break;
+		case 4: scanf("%lf%lf",&g,&h);printf("\nsum=%lf\nsub=%lf\ndiv=%lf\nmul=%lf\n",g+h,g-h,g/h,g*h); break;	
+	        case 5: return;
+
+	}
+	
+}
+
+   
+  
+}
