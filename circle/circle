@@ -1,0 +1,12 @@
+//circle area and circumference
+#include<stdio.h>
+#define pi 3.14
+void main()
+{
+	float r;
+	printf("\nenter the radius\n");
+	scanf("%f",&r);
+	printf("\nAREA = %f\n",(pi*r*r));
+	printf("\ncircumference=%f\n",(2*pi*r));
+
+}
