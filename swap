@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+	int a,b;
+	printf("\nenter two numbers\n");
+	scanf("%d%d",&a,&b);
+	printf("\na=%d \nb=%d\n",a,b);
+		a=a^b;
+	        b=a^b;
+		a=a^b;
+
+	printf("\na=%d \nb=%d\n",a,b);
+		
+}
