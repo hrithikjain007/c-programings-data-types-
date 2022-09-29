@@ -1,0 +1,23 @@
+//toggle nth bit of a number
+
+
+#include<stdio.h>
+void main()
+{
+	int a,b,n,c,i;
+	printf("\nenter the number\n");
+	scanf("%d",&a);
+	printf("\nenter the \n");
+	scanf("%d",&n);
+        
+   for(i=31;i!=-1;i--)
+	   printf("%d",a>>i&1);
+   a=a^(1<<n);
+   printf("\n");
+
+   for(i=31;i!=-1;i--)
+	   printf("%d",a>>i&1);
+    
+ 
+
+}
