@@ -1,0 +1,14 @@
+//Write a C program to check Least Significant Bit (LSB) of a number is set or not
+
+
+#include<stdio.h>
+void main()
+{
+	int n ,i,j;
+	printf("\n enter the number\n");
+	scanf("%d",&n);
+        if(n&1)
+		printf("\nset\n");
+	else
+		printf("\nclear\n");
+}
