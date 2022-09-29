@@ -1,0 +1,20 @@
+// to check if msb is set or not
+
+
+
+
+#include<stdio.h>
+void main()
+{
+unsigned char i,b,c;
+unsigned	char a;
+	printf("\nenter the number\n");
+         scanf("%c",&a);
+	
+	
+	if(c&(1<<7))
+		printf("\nset\n");
+	else
+		printf("\nclear\n");
+
+}
