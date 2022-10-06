@@ -1,3 +1,6 @@
+//copy one string to another and also find the length of string
+
+
 #include "header.h"
 void main()
 {
