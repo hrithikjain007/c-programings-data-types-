@@ -1,0 +1,27 @@
+//swaping two numbers 
+
+#include"header.h"
+int a,b;
+void main()
+{
+
+printf("\nenter the numbers\n");
+scanf("%d%d",&a,&b);
+printf("\na=%d\nb=%d\n",a,b);
+swap(&a,&b);
+
+}
+void swap(int *x,int *y)
+{
+int c;
+c=*x;
+*x=*y;
+*y=c;
+
+
+
+printf("\na=%d\nb=%d\n",a,b);
+
+
+
+}
