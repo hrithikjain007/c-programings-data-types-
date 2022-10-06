@@ -1,3 +1,6 @@
+//sum of 2d array
+
+
 #include"header.h"
 void main()
 {
