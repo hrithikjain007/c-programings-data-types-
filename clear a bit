@@ -1,3 +1,5 @@
+//program to clear a bit
+
 #include<stdio.h>
 void main()
 {
