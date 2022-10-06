@@ -1,3 +1,5 @@
+//sort elements of array using pointers
+
 #include"header.h"
 void main()
 {
